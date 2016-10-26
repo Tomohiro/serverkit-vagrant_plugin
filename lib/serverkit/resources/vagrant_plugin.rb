@@ -7,7 +7,7 @@ module Serverkit
 
       # @note Override
       def apply
-        run_command("vagrant plugin install #{path}")
+        run_command("vagrant plugin install #{name}")
       end
     end
   end
